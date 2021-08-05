@@ -1,0 +1,6 @@
+1.put this in xamppp folder in the c local disk
+2.then put the htdoc folder paste the complete project here
+3. start the xampp open the sql and the appache.
+4. go to chrome and then search 
+            http://localhost:8080/web
+5. and open it and enjoy.

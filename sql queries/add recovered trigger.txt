@@ -1,0 +1,8 @@
+DELIMITER //
+create TRIGGER add_rec_pt
+before DELETE on patient
+for each ROW
+BEGIN
+INSERT INTO recovered_patients (pt_id, pt_name, pt_age, pt_address)
+VALUES (old.pt_id, old.pt_name, old.pt_age, old.pt_address);
+END; //

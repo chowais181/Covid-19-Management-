@@ -1,0 +1,5 @@
+CREATE TABLE recovered_patients
+	(pt_id int(50) PRIMARY KEY,
+     pt_name varchar(255) NOT NULL,
+     pt_age int(50) not null,
+     pt_address varchar(255) not null);

@@ -1,0 +1,8 @@
+create TABLE isolation_wards (
+	 SNO int PRIMARY KEY NOT NULL,
+     district varchar(255) NOT NULL,
+     province varchar(255) NOT NULL,
+     hospital varchar(255) NOT NULL,
+     ventilators int NOT NULL,
+     beds int NOT NULL);
+     

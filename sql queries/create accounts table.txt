@@ -1,0 +1,5 @@
+create table accounts (
+    	id int(6) AUTO_INCREMENT PRIMARY KEY,
+    	username varchar(255),
+    	password varchar(255),
+		creation_date timestamp DEFAULT CURRENT_TIMESTAMP)

@@ -1,0 +1,3 @@
+INSERT into accounts(username, password) VALUES ('abdulhai', '0405');
+INSERT into accounts(username, password) VALUES ('abdullah', '0300');
+INSERT into accounts(username, password) VALUES ('awais', '0269');

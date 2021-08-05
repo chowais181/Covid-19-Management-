@@ -1,0 +1,10 @@
+create TABLE patient
+	(ward_id int(11),
+     pt_id int(11) PRIMARY KEY NOT NULL,
+     pt_name varchar(50),
+     pt_age int(11),
+     pt_phone varchar(11),
+     pt_address varchar(255),
+     gender varchar(20),
+     pt_condition varchar(20),
+     test_res varchar(20));

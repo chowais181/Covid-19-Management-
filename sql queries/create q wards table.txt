@@ -1,0 +1,5 @@
+create table quarantine_wards (
+    SNO int PRIMARY KEY NOT NULL,
+    location varchar(255) NOT NULL,
+    province varchar(255) NOT NULL,
+    beds varchar(255) NOT NULL);

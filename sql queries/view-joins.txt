@@ -1,0 +1,25 @@
+Patients in Quarantine
+
+create or REPLACE view patient_in_quarantine AS
+select *, 'Ward Location', 'Ward Province'
+from patient t1
+inner join quarantine_wards t2
+on t1.ward_id = t2.SNO;
+
+
+
+
+
+Patients in Isolation
+
+create or REPLACE view patient_in_isolation AS
+select *, 'Ward District', 'Ward Province'
+from patient t1
+inner join isolation_wards t2
+on t1.ward_id = t2.SNO;
+
+
+create table users(
+	id varchar(255) Primary Key Not NULL,
+	username varchar(255) NOT NULL,
+	password varchar(255) NOT NULL);
